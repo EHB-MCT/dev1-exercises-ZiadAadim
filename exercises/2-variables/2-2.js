@@ -29,4 +29,5 @@ context.fillStyle = color;
 context.fillRect(pos, pos, size, size);
 
 
+
 }
