@@ -15,6 +15,6 @@ function drawShrinkingBars() {
         let gray = 255-(i*18)
         context.fillStyle = Utils.rgb(gray, gray, gray);
         context.fillRect(50 +(20*i), 50 +(i*10), 10, 300-(i*20));
-        i++;
+        i = i+ 1;
     }
 }
